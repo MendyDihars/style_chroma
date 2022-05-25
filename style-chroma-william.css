@@ -1,6 +1,8 @@
 .will {
   text-align: justify;
-  font-family: 'spartan', arial, sans-serif;
+}
+.will, .will > p {
+  font-family: 'spartan', arial, sans-serif !important;
 }
 .will__color {
   color: #fbff6f;
