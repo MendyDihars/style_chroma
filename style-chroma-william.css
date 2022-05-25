@@ -7,3 +7,14 @@
 .will__color {
   color: #fbff6f;
 }
+.will__tw {
+  padding: 8px 10px;
+  background: linear-gradient(90deg, rgba(238, 81, 79,1) 0%, rgba(168, 41, 70,1) 100%);
+  color: white;
+  text-transform: uppercase;
+  font-family: 'spartan', arial, sans-serif !important;
+  border-radius: 16px;
+  display: inline;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
