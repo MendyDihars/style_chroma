@@ -39,5 +39,5 @@
   transform: rotate(-45deg);
   position: absolute;
   left: 0px;
-  top: 7px;
+  top: calc(50% - 5px);
 }
