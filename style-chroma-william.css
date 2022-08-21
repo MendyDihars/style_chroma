@@ -2,7 +2,7 @@
 .will, .morr {
   text-align: justify;
 }
-.will, .will > p {
+.will, .morr, .will > p, .morr > p {
   font-family: 'spartan', arial, sans-serif !important;
 }
 .will__color {
