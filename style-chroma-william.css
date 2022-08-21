@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto+Mono&display=swap');
-.will {
+.will, .morr {
   text-align: justify;
 }
 .will, .will > p {
@@ -43,4 +43,8 @@
 }
 .will__tiny {
   font-size: 9px;
+}
+
+.morr__color {
+  color: #4594e0;
 }
