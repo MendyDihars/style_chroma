@@ -48,3 +48,10 @@
 .morr__color {
   color: #4594e0;
 }
+
+.morr_title {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 12px;
+  border-bottom: white;
+}
