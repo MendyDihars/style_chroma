@@ -11,6 +11,11 @@
 .will__pnj {
   color: #48bd9d;
 }
+.will__important {
+  color: #fbff6f;
+  font-weight: bold;
+  font-style: italic;
+}
 .will__tag {
   padding: 8px 10px 6px 10px;
   background: linear-gradient(90deg, rgba(238, 81, 79,1) 0%, rgba(168, 41, 70,1) 100%);
