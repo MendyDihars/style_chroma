@@ -7,10 +7,6 @@
   font-family: 'spartan', arial, sans-serif !important;
 }
 
-.morr, .morr > p {
-  font-family: 'Bitter', 'spartan', arial, sans-serif !important;
-}
-
 .will__color {
   color: #fbff6f;
 }
@@ -56,6 +52,10 @@
   font-size: 9px;
 }
 
+.morr, .morr > p {
+  font-family: 'Bitter', 'spartan', arial, sans-serif !important;
+}
+
 .morr__color {
   color: #4594e0;
   text-shadow: 0 0 4px rgb(255 255 255 / 75%);
@@ -67,4 +67,14 @@
   padding-bottom: 12px;
   border-bottom: white;
   text-transform: uppercase;
+}
+
+.morr {
+  background: rgb(255 255 255 / 86%);
+  color: black;
+  padding: 16px;
+}
+
+.morr__pnj {
+  color: #2e9f00
 }
