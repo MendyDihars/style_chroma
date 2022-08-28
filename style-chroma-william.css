@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
 .will, .morr {
   text-align: justify;
 }
-.will, .morr, .will > p, .morr > p {
+.will, .will > p {
   font-family: 'spartan', arial, sans-serif !important;
 }
+
+.morr, .morr > p {
+  font-family: 'Bitter', 'spartan', arial, sans-serif !important;
+}
+
 .will__color {
   color: #fbff6f;
 }
