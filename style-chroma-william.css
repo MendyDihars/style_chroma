@@ -78,3 +78,9 @@
 .morr__pnj {
   color: #2e9f00
 }
+
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
