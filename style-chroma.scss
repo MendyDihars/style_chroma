@@ -2,6 +2,8 @@
 
 /* GLOBAL */
 
+$spartan: 'spartan', arial, sans-serif;
+
 .d-center {
   display: flex;
   justify-content: center;
@@ -12,7 +14,7 @@
   text-align: justify;
 }
 .will, .will > p {
-  font-family: 'spartan', arial, sans-serif !important;
+  font-family: $spartan !important;
 }
 
 /* WILLIAM */
@@ -34,7 +36,7 @@
     background: linear-gradient(90deg, rgba(238, 81, 79,1) 0%, rgba(168, 41, 70,1) 100%);
     color: white;
     text-transform: uppercase;
-    font-family: 'spartan', arial, sans-serif !important;
+    font-family: $spartan !important;
     border-radius: 16px;
     display: inline;
     font-weight: bold;
@@ -67,7 +69,7 @@
 /* MORRIGAN */
 
 .morr, .morr > p {
-  font-family: 'Bitter', 'spartan', arial, sans-serif !important;
+  font-family: 'Bitter', $spartan !important;
 }
 
 .morr {
@@ -94,6 +96,54 @@
 
 /* EXTRA */
 
-.card__link {
-  
+.card-rp {
+  %avatar {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: 3px solid white;
+    object-fit: cover;
+  }
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  a {
+    z-index: 1;
+    position: relative;
+    transition: background 0.3s ease;
+    &:hover:before {
+      @extend .d-center;
+      font-family: $spartan;
+      font-weight: bold;
+      content: 'GO';
+      background: white;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 3;
+      color: black;
+      @extend %avatar;
+    }
+    &:active {
+      color: inherit;
+    }
+  }
+  &__avatar {
+    @extend %avatar;
+    z-index: 2;
+  }
+  &__text {
+    font-family: 'spartan', arial, sans-serif;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    &--right {
+      margin-left: -12px;
+    }
+    &--left {
+      margin-right: -12px;
+    }
+  }
 }
