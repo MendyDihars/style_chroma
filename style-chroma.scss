@@ -102,7 +102,7 @@ $hybride: #79b77a;
 .card-rp {
   display: block;
   transition: all 0.3s ease;
-  margin-bottom: 4px;
+  margin-bottom: 30px;
   border-radius: 6px;
   font-family: $spartan;
   &:hover {
@@ -110,12 +110,12 @@ $hybride: #79b77a;
     color: white;
   }
   &__link {
-    text-align: center;
+    text-align: left;
     padding: 4px;
     font-weight: bold;
   }
   &__character {
-    text-align: center;
+    text-align: right;
     padding: 4px;
   }
 }
