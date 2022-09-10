@@ -5,6 +5,8 @@
 $spartan: 'spartan', arial, sans-serif;
 $shadow: 0 8px 17px 2px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%), 0 5px 5px -3px rgb(0 0 0 / 20%);
 
+$hybride: #79b77a;
+
 .d-center {
   display: flex;
   justify-content: center;
@@ -103,8 +105,8 @@ $shadow: 0 8px 17px 2px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%), 0 5px
   margin-bottom: 4px;
   border-radius: 6px;
   &:hover {
-    background: white;
-    color: black;
+    background: $hybride;
+    color: white;
   }
   &__link {
     text-align: center;
