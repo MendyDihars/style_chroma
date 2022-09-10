@@ -100,6 +100,8 @@ $shadow: 0 8px 17px 2px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%), 0 5px
 .card-rp {
   display: block;
   transition: all 0.3s ease;
+  margin-bottom: 4px;
+  border-radius: 6px;
   &:hover {
     background: white;
     color: black;
@@ -107,6 +109,7 @@ $shadow: 0 8px 17px 2px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%), 0 5px
   &__link {
     text-align: center;
     padding: 4px;
+    font-weight: bold;
   }
   &__character {
     text-align: center;
