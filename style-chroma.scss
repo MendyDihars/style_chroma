@@ -97,12 +97,19 @@ $shadow: 0 8px 17px 2px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%), 0 5px
 
 /* EXTRA */
 
-.link-will {
-  padding: 4px;
-  width: 100%;
-  background: white;
-  color: black;
+.card-rp {
   &:hover {
-    box-shadow: $shadow;
+    border: 1px solid white;
+    &__link {
+      border-bottom: 1px solid white;
+    }
+  }
+  &__link {
+    text-align: center;
+    padding: 4px;
+  }
+  &__character {
+    text-align: center;
+    padding: 4px;
   }
 }
