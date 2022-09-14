@@ -136,21 +136,21 @@ $hybride: #79b77a;
       height: 10px;
       width: 10px;
       border-radius: 50%;
-      background: $hybride;
+      background: $chroma;
       position: absolute;
       border: 1px solid rgb(0 0 0 / 0.4);
     }
     %pins {
-          &:after {
-            @extend %pin;
-            top: 7px;
-            left: 7px;
-          }
-          &:before {
-            @extend %pin;
-            top: 7px;
-            right: 7px;
-          }
+      &:after {
+        @extend %pin;
+        top: 7px;
+        left: 7px;
+      }
+      &:before {
+        @extend %pin;
+        top: 7px;
+        right: 7px;
+      }
     }  
     &-picture {
       position: relative;
