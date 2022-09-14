@@ -128,7 +128,7 @@ $hybride: #79b77a;
   background: white;
   .board {
     display: flex;
-    font-family: arial, sans-serif;
+    font-family: $spartan;
     position: relative;
   
     %pin {
