@@ -5,6 +5,8 @@
 $spartan: 'spartan', arial, sans-serif;
 $shadow: 0 8px 17px 2px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%), 0 5px 5px -3px rgb(0 0 0 / 20%);
 
+$chroma: #a82946;
+
 $hybride: #79b77a;
 
 .d-center {
@@ -122,7 +124,7 @@ $hybride: #79b77a;
 
 .board-wrapper {
   padding: 24px;
-  border: 6px solid $hybride;
+  border: 6px solid rgba(0 0 0 / 50%);
   background: white;
   .board {
     display: flex;
@@ -183,16 +185,16 @@ $hybride: #79b77a;
       &__tag {
         &--text {
           display: inline;
-          background: $hybride;
-          color: white;
+          color: $chroma;
           font-weight: bold;
+          text-transform: uppercase;
           font-style: italic;
           padding: 6px;
           font-size: 20px;
           border-radius: 5px;
         }
         margin-bottom: 12px;
-        align-self: flex-end;
+        align-self: center;
       }
     }
   }
