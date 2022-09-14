@@ -175,6 +175,7 @@ $hybride: #79b77a;
       &__text {
         flex: 1;
         box-shadow: $shadow;
+        color: black;
         position: relative;
         padding: 34px;
         @extend %pins;
