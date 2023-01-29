@@ -17,6 +17,9 @@ $hybride: #79b77a;
 
 .will, .morr {
   text-align: justify;
+  .b-shadow {
+    box-shadow: $shadow;
+  }
   .d-flex {
     display: flex;
   }
